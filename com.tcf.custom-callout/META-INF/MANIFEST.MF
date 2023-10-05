@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Custom-callout
+Bundle-SymbolicName: com.tcf.custom-callout
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: TCF
+Automatic-Module-Name: com.tcf.custom.callout
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: org.osgi.service.component.annotations;version="1.3.0"
+Require-Bundle: org.adempiere.base;bundle-version="9.0.0",
+ org.adempiere.plugin.utils;bundle-version="9.0.0",
+ org.tcf.planning;bundle-version="1.0.0"
+Service-Component: CustomCalloutlFactory.xml
